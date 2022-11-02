@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pruebaPizzeria/static/css/main.a70549ff.css",
-    "main.js": "/pruebaPizzeria/static/js/main.54bb15e3.js",
+    "main.js": "/pruebaPizzeria/static/js/main.e6412bd5.js",
     "static/media/wall.jpg": "/pruebaPizzeria/static/media/wall.d24d2d2943d762e5d820.jpg",
     "index.html": "/pruebaPizzeria/index.html",
     "main.a70549ff.css.map": "/pruebaPizzeria/static/css/main.a70549ff.css.map",
-    "main.54bb15e3.js.map": "/pruebaPizzeria/static/js/main.54bb15e3.js.map"
+    "main.e6412bd5.js.map": "/pruebaPizzeria/static/js/main.e6412bd5.js.map"
   },
   "entrypoints": [
     "static/css/main.a70549ff.css",
-    "static/js/main.54bb15e3.js"
+    "static/js/main.e6412bd5.js"
   ]
 }
