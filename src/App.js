@@ -11,7 +11,7 @@ import Navigation from './components/Navbar';
 function App() {
   const [pizzas, setPizzas] = useState([]);
   const [carro, setCarro] = useState([]);
-  const endpoint = '/pizzas.json';
+  const endpoint = '/pruebaPizzeria/pizzas.json';
 
   const getYourPizza = async() => {
     const res = await fetch(endpoint);
@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App">
       <MyContext.Provider value={{pizzas, setPizzas, carro, setCarro, totalPizzas, yourOrder, agregar}}>
-      <BrowserRouter>
+      <BrowserRouter basename="pruebaPizzeria">
       <Navigation/>
        <Routes>
         <Route path='/' element={<Home/>} index/>
